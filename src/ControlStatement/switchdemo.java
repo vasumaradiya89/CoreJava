@@ -17,6 +17,7 @@ public class switchdemo
 
         switch (age){
 
+
             case 18:
                 System.out.println("Your age between 18-30.");
                 break;
