@@ -3,11 +3,11 @@ package test;
 /**
  * Created by Vasu Maradiya on 27-09-2017.
  */
-public class AggrigationDemo
+public class AggregationDemo
     {
         int id;
         String name;
-        AggrigationDemo(int id,String name)
+        AggregationDemo(int id, String name)
         {
             this.id=id;
             this.name=name;
@@ -39,12 +39,12 @@ class demo4
 }
 class demo5 {
   static   int zipcode;
-  static   AggrigationDemo d5;
+  static AggregationDemo d5;
   static   demo1 d1;
   static   demo2 d2;
   static   demo4 d4;
 
-    demo5(int zipcode, AggrigationDemo d5, demo1 d1, demo2 d2, demo4 d4) {
+    demo5(int zipcode, AggregationDemo d5, demo1 d1, demo2 d2, demo4 d4) {
         this.zipcode = zipcode;
         this.d1 = d1;
         this.d2 = d2;
@@ -60,7 +60,7 @@ class demo5 {
 
     public static void main(String[] args)
     {
-        AggrigationDemo aggrigationDemo=new AggrigationDemo(1,"Vasu");
+        AggregationDemo aggrigationDemo=new AggregationDemo(1,"Vasu");
         demo1 demo1=new demo1("Ahmedabad");
         demo2 demo2=new demo2("Gujarat");
         demo4 demo4=new demo4("India");

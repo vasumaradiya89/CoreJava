@@ -17,8 +17,7 @@ public class twoDarray {
         b=scanner.nextInt();
 
         int [][] a=new int[d][b];
-
-        System.out.println("Enter number of rows: ");
+       System.out.println("Enter number of rows: ");
 
         r = scanner.nextInt();
 
@@ -57,5 +56,3 @@ public class twoDarray {
     }
 
 }
-
-
